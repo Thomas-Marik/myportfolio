@@ -1,0 +1,48 @@
+.homepage-container{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    justify-content:space-evenly;
+    justify-items: center;
+}
+
+.homepage-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.hompage-header-photo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: aqua;
+    border-radius: 12px;
+    margin:5%;
+    width:33%;
+}
+.homepage-picture{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+.homepage-header-title{
+    display: flex;
+    color: brown;
+    background-color: bisque;
+    flex-direction: column;
+    align-items: center;
+    width:66%
+
+}
+.homepage-header-title h1{
+    color: blue;
+}
+
+.homepage-bio{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: large;
+    color: black;
+}
