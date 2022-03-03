@@ -1,0 +1,42 @@
+.skills-page{
+display: flex;
+flex-direction: column;
+justify-content:space-between;
+
+}
+.skills-conatiner {
+ 
+}
+
+.skills-list{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.skill-item{
+margin:2%;
+}
+.skill-icon{
+    height:150px;
+    width:auto;
+}
+
+.certs-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.cert-item{
+    background-color: bisque;
+    border-radius: 12px 50% 50% 50% ;
+    padding: 10px;
+}
+.cert-icon{
+    height:200px;
+    width: 200px;
+}

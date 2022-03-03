@@ -1,0 +1,36 @@
+.contact-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.contact-list{
+display: flex;
+flex-direction: column;
+background-color: cadetblue;
+border-radius: 12px;
+margin:5%;
+width:25%;
+}
+.contact-list a{
+    text-decoration: none;
+}
+
+.contact-item{
+display: flex;
+width:90%;
+flex-direction: row;
+background-color: bisque;
+text-decoration: none;
+margin-top :2%;
+border-radius: 12px;
+}
+
+.link-logo{
+    height:70px;
+    width:70px;
+}
+.link-name{
+    text-decoration: none;
+}

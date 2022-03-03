@@ -1,0 +1,52 @@
+.slide{
+    margin:2%;
+    border-radius: 12px;
+    height: 80vh;
+   width:60vw;
+}
+.sliders{
+    margin: 2%;
+    border-radius: 20px;
+}
+
+.slide-left{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+
+}
+.slide-right{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    background-color: blue;
+    border-radius: 20px;
+}
+.slide-container{
+    
+    justify-content: center;
+    height:90VH;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    border-radius: 12px;
+    width:72%;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.slide-page {
+    display: flex;
+    background-color: black;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.slide-link{
+    background-color: chartreuse;
+    text-decoration: none;
+    margin-bottom: 10px;
+    width: fit-content;
+}

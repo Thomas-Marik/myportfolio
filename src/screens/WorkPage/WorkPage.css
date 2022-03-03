@@ -1,0 +1,45 @@
+.work{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    background-color: blueviolet;
+    color:antiquewhite;
+    border-radius: 12px;
+}
+
+.work-container{
+   
+}
+
+.workitem-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    border-radius: 12px;
+    margin: 1%;
+    background-color: darkgreen;
+    color: bisque;
+}
+
+.workitem-header{
+
+}
+
+.workitem-dutylist{
+    display: flex;
+    padding: 10px;
+    width:85%;
+    align-self: flex-end;
+    flex-direction: column;
+    margin: 2%;
+    background-color: blueviolet;
+    color:antiquewhite;
+    border-radius: 12px;
+}
+
+.duty-item{
+    display: flex;
+    margin:1%;
+    background-color: chocolate;
+}
